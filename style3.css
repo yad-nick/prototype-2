@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid white;
+    background: transparent;
+    
+}
+
+.logo{
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+   
+    
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width:55%;
+   
+}
+.nav-links li{
+    list-style:square;
+    
+}
+.nav-links a{
+    color: whitesmoke;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px; 
+    border:1px solid white;
+    padding: 7px 20px;
+}
+
+.nick img{
+     width: 350px;
+    height: auto;
+   position: absolute;
+    top:150px;
+    border: 2px solid black;
+    
+    
+    
+}
+
+  .button
+{
+    margin-top: 330px;
+    margin-left: 25px;
+}
+.btn
+{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right:5px;
+    font-size: 13px;
+    text-transform: uppercase;
+    
+}
+  .btn-one
+{
+    background-color: darkorange;
+    font-family: "Roboto", sans-serif;
+    
+}
+.btn-one:hover
+{
+    background-color: black;
+    transition: all 0.5s ease-in;
+}
+ .btn-two
+{
+    font-family: "roboto", sans-serif;
+}
+
+        .btn-two:hover
+{
+   background-color: darkgrey;
+    transition: all 0.5s ease-in;
+}
